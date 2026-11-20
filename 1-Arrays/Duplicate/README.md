@@ -1,6 +1,7 @@
 #Contains Duplicate
-Platform: Leetcode
-Difficulty: Easy
+
+Platform: Leetcode,
+Difficulty: Easy,
 Topics: Arrays, sets...
 
 #Understanding the problem:

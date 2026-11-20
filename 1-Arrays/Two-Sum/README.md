@@ -1,6 +1,7 @@
 #Two Sum
-Platform: Leetcode
-Difficulty: Easy
+
+Platform: Leetcode,
+Difficulty: Easy,
 Topics: Arrays, Hash table  (dict) ...
 
 #Understanding the problem:
