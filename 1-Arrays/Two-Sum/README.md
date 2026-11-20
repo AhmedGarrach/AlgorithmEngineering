@@ -1,7 +1,7 @@
 #Two Sum
 Platform: Leetcode
 Difficulty: Easy
-Topics: Arrays, Hash table...
+Topics: Arrays, Hash table  (dict) ...
 
 #Understanding the problem:
 
@@ -15,7 +15,7 @@ Space Complexity: O(1)
 
 #Approach 2, Optimal solution:
 
-instead of checking every possible pair, we can use a hasmap: going through the loop, see if current value + another value = target, if no such other value exists yet in the hashmap, add the current value to said hashmap and continue
+instead of checking every possible pair, we can use a Python dictionary (dict): going through the loop, see if current value + another value = target, if no such other value exists yet in the dict, add the current value and its index to said dict and continue
 Time Complexity: O(n)
 Space Complexity: O(n)
 
