@@ -17,7 +17,7 @@ Initially i thought of using a set to make sure that both strings have the exact
 The trick is to loop through the first string, each time adding each letter into an empty hashmap with the occurence number of 1, if the letter already exists, add 1 to the occurence number.
 Then go through the other string.
 
-How do we compare? well we could use another Hashmap and compare those two, but to save space, we balance out the frequencies instead of comparing, we go through the second string using the same Hashmap and simply decrementing the occurence each time an element exists in the dictionary and the string
+How do we compare? well we could use another Hashmap and compare those two, but to save space, we balance out the frequencies instead of comparing, we go through the second string using the same Hashmap and simply decrementing the occurence each time an element exists in the dictionary and the string:
 
 so at the end, the values of the hashmap should all be 0 if the strings are anagrams
 
